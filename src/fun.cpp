@@ -57,10 +57,10 @@ unsigned int faStr3(const char *str)
         if(str[i] != ' ' && inWord == 0) {
             count++;
             inWord = 1;
-            word_sumbol++;
+            word_sumbols++;
         }
         else if(str[i] != ' ' && inWord == 1) {
-            word_sumbol++;
+            word_sumbols++;
         }
         else if(str[i] == ' ' && inWord == 1) {
             inWord = 0;
