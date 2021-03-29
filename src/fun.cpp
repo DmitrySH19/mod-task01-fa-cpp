@@ -66,5 +66,5 @@ unsigned int faStr3(const char *str)
         }
         i++;
     }
-    return round(countOfSymbols/count);
+    return round(word_sumbols/count);
 }
